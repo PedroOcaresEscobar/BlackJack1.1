@@ -1,0 +1,95 @@
+
+.fondo {
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+    width: 100%;
+    gap: 20px;
+}
+body {
+    background-color: rgb(15, 163, 27);
+    display: flex;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 40px;
+}
+#laCasa {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(74, 212, 86);
+    border: 3px solid red;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card1 {
+    width: 100px;
+    height: 150px;
+    border-inline-start-width: 10px solid blue;
+    background-color: rgba(255, 255, 255, 0.89);
+    border: 3px solid red;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.cartas-laCasa {
+    display: flex;
+    gap: 20px;
+    width: 450px;
+    color:red
+}
+.jugadores {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+.contenedor-cartas {
+    border: 3px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(74, 212, 86);
+    text-align: center;
+    width: 450px;
+}
+h7 {
+    background-color: rgb(255, 8, 0);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+}
+
+.btn-rc {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(245, 185, 55);
+    color: rgb(248, 70, 0);
+    font-weight: bold;
+}
+.apuesta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.apuesta-btn {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(245, 185, 55);
+    color: rgb(248, 70, 0);
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.apuesta {
+    font-size: 20px;
+    margin: 0 10px;
+}
+.creditos {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}

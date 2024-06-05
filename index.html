@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="fondo">
+        <h1>Simulador Black Jack 1.1</h1>
+        <div id="laCasa">
+            <h7>LA CASA</h7>
+            <div id="cartasCasa" class="cartas-laCasa"></div>
+        </div>
+        <div class="jugadores">
+
+
+
+            <div id="contenedor-cartas-1" class="contenedor-cartas">
+                <h7 id="estadoJugador1">Jugador 1</h7>
+                <div id="cartasJugador1" class="cartas-laCasa"></div>
+                <div class="apuesta-container">
+                    <button class="apuesta-btn" data-jugador="1" data-action="restar">-</button>
+                    <span class="apuesta" id="apuestaJugador1">0</span>
+                    <button class="apuesta-btn" data-jugador="1" data-action="sumar">+</button>
+                </div>
+                <div class="creditos" id="creditosJugador1">Créditos: 500</div>
+                <button class="sentarse-btn" data-jugador="1">Sentarse</button>
+            </div>
+
+
+            <div id="contenedor-cartas-2" class="contenedor-cartas">
+                <h7 id="estadoJugador2">Jugador 2</h7>
+                <div id="cartasJugador2" class="cartas-laCasa"></div>
+                <div class="apuesta-container">
+                    <button class="apuesta-btn" data-jugador="2" data-action="restar">-</button>
+                    <span class="apuesta" id="apuestaJugador2">0</span>
+                    <button class="apuesta-btn" data-jugador="2" data-action="sumar">+</button>
+                </div>
+                <div class="creditos" id="creditosJugador2">Créditos: 500</div>
+                <button class="sentarse-btn" data-jugador="2">Sentarse</button>
+            </div>
+
+
+            <div id="contenedor-cartas-3" class="contenedor-cartas">
+                <h7 id="estadoJugador3">Jugador 3</h7>
+                <div id="cartasJugador3" class="cartas-laCasa"></div>
+                <div class="apuesta-container">
+                    <button class="apuesta-btn" data-jugador="3" data-action="restar">-</button>
+                    <span class="apuesta" id="apuestaJugador3">0</span>
+                    <button class="apuesta-btn" data-jugador="3" data-action="sumar">+</button>
+                </div>
+                <div class="creditos" id="creditosJugador3">Créditos: 500</div>
+                <button class="sentarse-btn" data-jugador="3">Sentarse</button>
+            </div>
+        </div>
+        <div>
+            <button id="repartirCartasBtn" class="btn-rc">Repartir Cartas</button>
+        </div>
+    </section>
+    <script src="js/blackJack.js"></script>
+</body>
+</html>
